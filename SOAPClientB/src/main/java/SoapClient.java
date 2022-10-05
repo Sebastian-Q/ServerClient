@@ -48,7 +48,7 @@ public class SoapClient {
                     System.out.println("Introducir Fecha de Nacimiento: (03/07/2002 dd/mm/año)");
                     String fechaN = leer.next();
                     String re = port.rfc(nombre,paterno,materno, fechaN);
-                    System.out.println(re);
+                    System.out.println(re.toUpperCase());
                     break;
                 default:
                     System.out.println("No selecciono ninguna");
